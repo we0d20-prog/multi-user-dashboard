@@ -1,0 +1,42 @@
+/* Sidebar */
+.sidebar{
+    width:250px;
+    height:100vh;
+    position:fixed;
+    left:0;
+    top:56px;
+    padding-top:20px;
+}
+
+/* Sidebar Links */
+.sidebar a{
+    display:block;
+    text-decoration:none;
+    padding:15px 20px;
+}
+
+/* Main Content */
+.content{
+    margin-left:250px;
+    padding:20px;
+}
+
+/* ==========================================
+   إصلاح جداول Dashboard في الوضع الليلي
+   ========================================== */
+
+html[data-bs-theme="dark"] .table-dashboard thead th{
+    background-color: var(--bs-secondary-bg) !important;
+    color: var(--bs-body-color) !important;
+    border-bottom-color: var(--bs-border-color) !important;
+}
+
+html[data-bs-theme="dark"] .table-dashboard tbody tr:hover{
+    background-color: var(--bs-tertiary-bg) !important;
+}
+
+html[data-bs-theme="dark"] .table-dashboard td{
+    color: var(--bs-body-color);
+}
+
+
