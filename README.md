@@ -45,22 +45,43 @@
 
 ⸻
 
-📸 لقطات الشاشة (Screenshots)
+## 📸 لقطات الشاشة (Screenshots)
 
-يمكنك الضغط على أي رابط لفتح لقطة الشاشة من ملفات المشروع على GitHub. يجب أن تكون الصور مرفوعة داخل مجلد screenshots الموجود بجانب ملف README.md.
+### 🔐 صفحة تسجيل الدخول
+![Login](screenshots/Login.png)
 
-* 🔐 صفحة تسجيل الدخول
-* 📊 لوحة التحكم — الوضع الفاتح
-* 🌙 لوحة التحكم — الوضع الداكن
-* 👥 إدارة المستخدمين
-* 🔑 الأدوار والصلاحيات
-* 🏢 إدارة الأقسام
-* 🕒 الحضور والانصراف
-* 🏖️ طلبات الإجازات
-* 🔔 الإشعارات
-* 📢 الإعلانات
-* 📝 سجل الأنشطة
-* 📈 التقارير
+### 📊 لوحة التحكم — الوضع الفاتح
+![Dashboard Light](screenshots/Dashboard.png)
+
+### 🌙 لوحة التحكم — الوضع الداكن
+![Dashboard Dark](screenshots/Dashboard%20dark.png)
+
+### 👥 إدارة المستخدمين
+![Users](screenshots/Users.png)
+
+### 🔑 الأدوار والصلاحيات
+![Roles and Permissions](screenshots/Roles%20%26%20Permissions.png)
+
+### 🏢 إدارة الأقسام
+![Departments](screenshots/Departments.png)
+
+### 🕒 الحضور والانصراف
+![Attendance](screenshots/Attendance.png)
+
+### 📝 طلبات الإجازات
+![Leave Requests](screenshots/Leave%20Requests.png)
+
+### 🔔 الإشعارات
+![Notifications](screenshots/Notifications.png)
+
+### 📢 الإعلانات
+![Announcements](screenshots/Announcements.png)
+
+### 📋 سجل الأنشطة
+![Activity Logs](screenshots/Activity-logs.png)
+
+### 📈 التقارير
+![Reports](screenshots/reports.png)
 
 
 ⸻
