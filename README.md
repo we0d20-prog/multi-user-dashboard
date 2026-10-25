@@ -227,104 +227,31 @@ Frontend
 
 ⸻
 
-📁 هيكل المشروع
+## 📁 هيكل المشروع
 
+```text
 multi-user-dashboard/
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── uploads/
-├── auth/
-│   ├── forgot_password.php
-│   ├── login_process.php
-│   ├── login.php
-│   ├── logout.php
-│   └── reset_password.php
-├── announcements/
-│   ├── index.php
-│   ├── create.php
-│   ├── edit.php
-│   └── delete.php
-├── attendance/
-│   ├── index.php
-│   ├── check_in.php
-│   ├── check_out.php
-│   ├── export_csv.php
-│   ├── export_pdf.php
-│   └── report.php
-├── backup/
-│   ├── backup.php
-│   ├── index.php
-│   └── restore.php
-├── config/
-│   ├── db.php
-│   └── env.php
-├── dashboard/
-│   └── index.php
-├── departments/
-│   ├── create.php
-│   ├── delete.php
-│   ├── edit.php
-│   ├── index.php
-│   ├── store.php
-│   ├── update.php
-│   └── view.php
-├── includes/
-│   ├── auth_check.php
-│   ├── permissions.php
-│   ├── activity_log.php
-│   ├── notification_helper.php
-│   ├── header.php
-│   ├── navbar.php
-│   ├── footer.php
-│   ├── mail.php
-│   └── sidebar.php
-├── leaves/
-│   ├── approve.php
-│   ├── create.php
-│   ├── index.php
-│   ├── reject.php
-│   ├── store.php
-│   └── view.php
-├── notifications/
-│   └── index.php
-├── profile/
-│   ├── change_password.php
-│   ├── index.php
-│   └── update_profile.php
-├── reports/
-│   ├── export_csv.php
-│   ├── export_pdf.php
-│   └── index.php
-├── roles/
-│   ├── create.php
-│   ├── delete.php
-│   ├── edit.php
-│   ├── index.php
-│   ├── permissions.php
-│   └── save_permissions.php
-├── settings/
-│   └── index.php
-├── users/
-│   ├── index.php
-│   ├── create.php
-│   ├── edit.php
-│   ├── update.php
-│   ├── delete.php
-│   ├── restore.php
-│   ├── force_delete.php
-│   ├── store.php
-│   ├── toggle_status.php
-│   └── trash.php
-├── screenshots/
-├── database/
-│   └── employee_management.sql
-├── .env
-├── .gitignore
-├── composer.json
-├── index.php
-└── README.md
-
+├── assets/          # ملفات CSS وJavaScript والصور
+├── auth/            # تسجيل الدخول والخروج واستعادة كلمة المرور
+├── attendance/      # إدارة الحضور والانصراف
+├── announcements/   # إدارة الإعلانات
+├── config/          # إعدادات الاتصال بقاعدة البيانات
+├── dashboard/       # لوحة التحكم الرئيسية
+├── database/        # ملف قاعدة البيانات SQL
+├── departments/     # إدارة الأقسام
+├── includes/        # الملفات المشتركة والصلاحيات
+├── leaves/          # إدارة طلبات الإجازات
+├── notifications/   # الإشعارات
+├── profile/         # الملف الشخصي
+├── reports/         # التقارير والتصدير
+├── roles/           # الأدوار والصلاحيات
+├── screenshots/     # صور واجهات النظام
+├── settings/        # إعدادات النظام
+├── users/           # إدارة المستخدمين
+├── composer.json    # اعتماديات PHP
+├── .gitignore       # الملفات المستثناة من Git
+└── README.md        # توثيق المشروع
+```
 ⸻
 
 ⚙️ طريقة التثبيت والتشغيل
